@@ -58,6 +58,6 @@
 
   Project Link [https://github.com/JeanPiere91/tech-blog](https://github.com/JeanPiere91/tech-blog)
 
-  This App has been deployed on Heroku. If you want test the project you can clic here --> [Tech Blog](https://quiet-ridge-24397-50a9c0f82226.herokuapp.com/)
+  This App has been deployed on Heroku. If you want test the project you can clic here --> [Tech Blog](https://frozen-coast-43054-7c5a0401f276.herokuapp.com/)
 
   If you have any questios about the repo, open an issue or contact me directly at [jeanpiere.bellota@gmail.com](jeanpiere.bellota@gmail.com). You can find more of my work at [JeanPiere91](https://github.com/JeanPiere91)
