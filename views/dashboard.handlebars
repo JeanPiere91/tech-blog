@@ -1,0 +1,16 @@
+<!-- Loop over each object in the projects array -->
+{{#each posts as |post| }}
+<div class="post">
+  <div>
+    <a href="/dashboard/post/{{post.id}}">{{post.title}}</a>
+    <p>{{format_date post.date_created}}</p>
+  </div>
+</div>
+{{/each}}
+<div id="btn-container">
+  <a id="btn-new-post" href="/dashboard/new">+ New Post</a>
+</div>
+
+<script>
+  document.querySelector('#nav-2').text = "Your Dashboard";
+</script>

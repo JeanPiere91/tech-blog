@@ -1,0 +1,22 @@
+<div class="form">
+  <h2>Edit Post</h2>
+
+  <form class="edit-post-form" id={{id}}>
+    <label for="title-post">Title</label>
+    <div class="form-group">
+      <input class="form-input" type="text" id="title-post" value="{{title}}"/>
+    </div>
+    <label for="description-post">Content</label>
+    <div class="form-group">
+      <input class="form-input" type="text" id="description-post" value="{{description}}"/>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">Update Post</button>
+    </div>
+  </form>
+  <div class="form-group">
+      <button class="btn btn-primary" type="submit" id="delete-post-btn">Delete</button>
+  </div>
+</div>
+
+<script src="/js/edit.js"></script>
