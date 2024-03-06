@@ -1,0 +1,219 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+    --background: #d5f1d9;
+    --gray: #4c4848;
+    --gray2: #807373;
+    --blue: #0722ff;
+    --margin-right-header: 100px;
+    --margin-right-row: 100px;
+    --margin-right-footer: 100px;
+}
+
+html {
+    /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+    font-size: 62.5%;
+}
+  
+body {
+    /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+    font-family:Arial, Helvetica, sans-serif;
+  
+    /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px*/
+    background-color: var(--background);
+}
+
+header {
+    background-color: var(--gray);
+}
+/*BEGIN MENU HEADER*/
+nav {
+    height: 100%;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--background);
+    font-size: 1.5rem;
+}
+
+#nav-2 {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 3rem;
+    background-color: var(--background);
+    border-radius: 3px;
+    margin: 30px 70px;
+    padding: 5px;
+    box-shadow: 4px 4px 1px var(--gray2);;
+}
+
+.post {
+    width: 90%;
+    border: 2px solid var(--gray);
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.post div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--gray);
+    color: var(--background);
+    padding: 5px 0;
+}
+
+.post div a {
+    text-decoration: none;
+    color: var(--background);
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.post div p {
+    padding-right: 10px;
+}
+
+.post h3 {
+    color: var(--gray);
+    padding: 0px 10px;
+}
+
+.form {
+    /* width: 60%; */
+    border: 2px solid var(--gray);
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 3px;   
+    max-width: 40%;
+}
+
+.form h2 {
+    background-color: var(--gray);
+    color: var(--background);
+    margin: 0;
+    padding: 6px 3%;
+    font-size: 1.5rem;
+    height: 24px;
+}
+
+.form form{
+    width: 100%;
+}
+
+.form label {
+    display: block;
+    margin: 6px 3%;
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+.form input {
+    height: 28px;
+    display: block;
+    border: none;
+    width: 94%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.form input:focus {
+    outline: 2px solid var(--blue);
+}
+
+.form button {
+    display: block;
+    margin: 10px 3% 5px 3%;
+    padding: 6px 10px;
+    width: 94%;
+    background-color: var(--gray2);
+    color: var(--background);
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.form a {
+    display: block;
+    text-decoration: none;
+    padding: 6px 10px;
+    color: var(--blue);
+    font-size: 1.5rem;
+    margin: 5px 0px 10px 10px;
+}
+
+.form textarea {
+    height: 56px;
+    display: block;
+    border: none;
+    width: 94%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+.form textarea:focus {
+    outline: 2px solid var(--blue);
+}
+
+.comment {
+    width: 90%;
+    border: 2px solid var(--gray);
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.comment div {
+    background-color: var(--gray);
+    color: var(--background);
+    padding: 15px 0;
+}
+
+.comment div a {
+    text-decoration: none;
+    color: var(--background);
+    font-size: 2rem;
+    padding-left: 10px;
+}
+
+.comment p {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.comment h3 {
+    color: var(--gray);
+    padding: 0px 10px;
+}
+
+#btn-container {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+}
+
+#btn-new-post {
+    text-align: center;
+    height: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 7%;    
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: var(--gray);
+    color: var(--background);
+    padding: 5px;
+}
